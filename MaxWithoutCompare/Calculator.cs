@@ -2,9 +2,9 @@
 
 namespace MaxWithoutCompare
 {
-    public class MaxCalculator
+    public class Calculator
     {
-        public int Calculate(int first, int second)
+        public int Max(int first, int second)
         {
             throw new NotImplementedException();
         }
