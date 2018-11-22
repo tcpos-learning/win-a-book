@@ -1,10 +1,12 @@
-﻿namespace MaxWithoutCompare
+﻿using System;
+
+namespace MaxWithoutCompare
 {
-  public class MaxCalculator
-  {
-    public int Calculate(int first, int second)
+    public class MaxCalculator
     {
-      throw new System.NotImplementedException();
+        public int Calculate(int first, int second)
+        {
+            throw new NotImplementedException();
+        }
     }
-  }
 }

@@ -15,7 +15,7 @@ namespace MaxWithoutCompare.Test
         public void should_(int first, int second, int expected)
         {
             var sut = new MaxCalculator();
-            
+
             var result = sut.Calculate(first, second);
 
             result.Should().Be(expected);
