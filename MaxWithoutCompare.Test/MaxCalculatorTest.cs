@@ -14,9 +14,9 @@ namespace MaxWithoutCompare.Test
         [InlineData(-15, 19, 19)]
         public void should_(int first, int second, int expected)
         {
-            var sut = new MaxCalculator();
-            
-            var result = sut.Calculate(first, second);
+            var sut = new Calculator();
+
+            var result = sut.Max(first, second);
 
             result.Should().Be(expected);
         }
